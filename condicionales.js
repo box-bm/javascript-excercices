@@ -55,5 +55,13 @@ switch (nivelDeProgramacion) {
 }
 
 // Operador ternario
-const esJunior = 5 > edad - 18 ? "Si" : "No";
+const esJunior = 5 > edad - 18 ? true : false;
+
+var esJunior2;
+if (5 > edad - 18) {
+  esJunior2 = true;
+} else {
+  esJunior2 = false;
+}
+
 console.log(esJunior);

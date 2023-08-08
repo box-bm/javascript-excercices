@@ -12,6 +12,7 @@
 var numeros = [1, 2, 3, 4, 5];
 var strings = ["1", "2", "3", "4", "5"];
 var booleans = [true, false, true, false];
+
 var personas = [
   {
     nombre: "Brandon",
